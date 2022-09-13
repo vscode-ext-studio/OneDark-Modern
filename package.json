@@ -1,0 +1,35 @@
+{
+  "name": "onedark-modern",
+  "displayName": "One Dark Modern",
+  "description": "One Dark Modern Theme",
+  "version": "0.0.1",
+  "publisher": "cweijan",
+  "icon": "icon.png",
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+		"Theme"
+	],
+  "bugs": {
+		"url": "https://github.com/cweijan/OneDark-Modern/issues",
+		"email": "cweijan@163.com"
+	},
+	"homepage": "https://github.com/cweijan/OneDark-Modern/blob/master/README.md",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/cweijan/OneDark-Modern.git"
+	},
+  "contributes": {
+    "themes": [
+      {
+        "label": "One Dark Modern",
+        "uiTheme": "vs-dark",
+        "path": "./themes/One Dark Modern-color-theme.json"
+      }
+    ]
+  }
+}
