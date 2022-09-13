@@ -2,7 +2,7 @@
   "name": "onedark-modern",
   "displayName": "One Dark Modern",
   "description": "One Dark Modern Theme",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "cweijan",
   "icon": "icon.png",
   "engines": {
@@ -30,6 +30,14 @@
         "uiTheme": "vs-dark",
         "path": "./themes/One Dark Modern-color-theme.json"
       }
-    ]
+    ],
+    "iconThemes": [
+			{
+				"id": "office-material-icon-theme",
+				"label": "Office Material Icon Theme",
+				"path": "./theme/material-icons.json",
+				"_watch": true
+			}
+		]
   }
 }
