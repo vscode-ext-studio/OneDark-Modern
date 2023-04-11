@@ -26,10 +26,15 @@
   "contributes": {
     "themes": [
       {
-        "label": "One Dark Modern",
-        "uiTheme": "vs-dark",
-        "path": "./themes/One Dark Modern-color-theme.json"
-      }
+				"label": "One Dark Modern",
+				"uiTheme": "vs-dark",
+				"path": "./theme/onedark-modern.json"
+			},
+			{
+				"label": "One Dark Modern Classic",
+				"uiTheme": "vs-dark",
+				"path": "./theme/onedark-modern-classic.json"
+			}
     ],
     "iconThemes": [
 			{
