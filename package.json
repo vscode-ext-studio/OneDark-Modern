@@ -1,20 +1,20 @@
 {
-  "name": "onedark-modern",
-  "displayName": "One Dark Modern",
-  "description": "One Dark Modern Theme",
-  "version": "1.0.5",
-  "publisher": "cweijan",
-  "icon": "icon.png",
-  "engines": {
-    "vscode": "^1.50.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "keywords": [
+	"name": "onedark-modern",
+	"displayName": "One Dark Modern",
+	"description": "One Dark Modern Theme",
+	"version": "1.0.6",
+	"publisher": "cweijan",
+	"icon": "icon.png",
+	"engines": {
+		"vscode": "^1.50.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
 		"Theme"
 	],
-  "bugs": {
+	"bugs": {
 		"url": "https://github.com/cweijan/OneDark-Modern/issues",
 		"email": "cweijan@163.com"
 	},
@@ -23,9 +23,12 @@
 		"type": "git",
 		"url": "https://github.com/cweijan/OneDark-Modern.git"
 	},
-  "contributes": {
-    "themes": [
-      {
+	"scripts": {
+		"publish": "vsce publish && ovsx publish"
+	},
+	"contributes": {
+		"themes": [
+			{
 				"label": "One Dark Modern",
 				"uiTheme": "vs-dark",
 				"path": "./theme/onedark-modern.json"
@@ -35,8 +38,8 @@
 				"uiTheme": "vs-dark",
 				"path": "./theme/onedark-modern-classic.json"
 			}
-    ],
-    "iconThemes": [
+		],
+		"iconThemes": [
 			{
 				"id": "office-material-icon-theme",
 				"label": "Office Material Icon Theme",
@@ -44,5 +47,5 @@
 				"_watch": true
 			}
 		]
-  }
+	}
 }
